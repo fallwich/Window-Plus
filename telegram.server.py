@@ -1,7 +1,7 @@
 #telegram 챗봇을 이용해 창문을 제어. gate, status, open, close, indoor, outdoor, 지역 이름 키워드를 이용해 제어.
-token = "5450872980:AAFGO1EWbbJyFJcNcopkc3mEGnsxdf5PZiA"
-id="5623439502"
-id2="5350738571"
+token = "토큰입력"
+id="아이디입력"
+id2="아이디입력"
 bot = telegram.Bot(token=token)
 updater = Updater(token=token, use_context=True)
 dispatcher = updater.dispatcher
